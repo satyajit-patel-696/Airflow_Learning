@@ -15,7 +15,6 @@ services:
         volumes:
             - ./store_files:/store_files_mysql/
             - ./store_files/mysql.cnf:/etc/mysql/conf.d/mysql.cnf
-           
 
     webserver:
         image: puckel/docker-airflow:1.10.4
