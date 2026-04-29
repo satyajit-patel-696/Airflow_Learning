@@ -1,0 +1,59 @@
+# 🔹 Python
+
+**pycache**/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# 🔹 Airflow
+
+airflow.db
+airflow-webserver.pid
+logs/
+*.log
+
+# 🔹 DAG compiled / temp
+
+dags/**pycache**/
+dags_more/**pycache**/
+
+# 🔹 Virtual Environment
+
+venv/
+env/
+.venv/
+
+# 🔹 VS Code
+
+.vscode/
+
+# 🔹 Mac / Linux system files
+
+.DS_Store
+
+# 🔹 Environment variables / secrets
+
+.env
+.env.*
+
+# 🔹 Docker
+
+*.pid
+*.sock
+
+# 🔹 MySQL / DB configs (if sensitive)
+
+mysql.cnf
+
+# 🔹 Terraform (if you add later)
+
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# 🔹 Temporary / misc
+
+*.tmp
+*.bak
+*.swp
