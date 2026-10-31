@@ -5,6 +5,7 @@
 *.pyo
 *.pyd
 *.db
+*.myvenv
 
 # 🔹 Airflow
 
